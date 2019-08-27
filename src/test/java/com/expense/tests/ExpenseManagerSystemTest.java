@@ -26,7 +26,7 @@ public class ExpenseManagerSystemTest {
 		String expectedTitle = "Login page";
 		
 		String actualTitle = driver.getTitle();
-		assertEquals(actualTitle, expectedTitle);
+		assertEquals(expectedTitle, actualTitle);
         System.out.println(actualTitle);
 	}
 	
